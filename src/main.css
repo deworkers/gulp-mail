@@ -1,0 +1,132 @@
+/*
+* Custom
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  width: 100%;
+  position: relative;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #000;
+  font-size: 14px;
+}
+img {
+  border: none;
+}
+p {
+  font-size: 14px;
+  margin: 0 0 20px 0;
+  line-height: 24px;
+}
+a {
+  color: #00519e;
+  outline: none;
+  transition: all 0.2s;
+}
+a:hover {
+  color: #00519e;
+}
+button {
+  transition: all 0.2s;
+}
+a:hover {
+  text-decoration: none;
+}
+h1 {
+  font-size: 24px;
+  margin: 0 0 30px 0;
+  line-height: normal;
+  color: #000;
+  font-weight: 700;
+}
+h2 {
+  font-size: 18px;
+  margin: 0 0 25px 0;
+  line-height: normal;
+  color: #000;
+  font-weight: 400;
+}
+h3 {
+  font-size: 16px;
+  margin: 0 0 20px 0;
+  line-height: normal;
+  color: #000;
+}
+h4 {
+  font-size: 14px;
+  margin: 0 0 15px 0;
+  line-height: normal;
+  color: #000;
+  font-weight: 700;
+}
+h5 {
+  font-size: 12px;
+  margin: 0 0 15px 0;
+  line-height: normal;
+  color: #000;
+  font-weight: 700;
+}
+table {
+  border-collapse: collapse;
+}
+ul,
+ol {
+  margin: 0 0 25px 0px;
+  padding: 0 0 0 30px;
+}
+ul li,
+ol li {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+/*полезные миксины*/
+img {
+  display: inline-block;
+}
+.header {
+  background: #ffffff;
+  background: linear-gradient(to bottom, #ffffff 0%, #ececec 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@color1', endColorstr='@color2', GradientType=0);
+  text-align: center;
+  border-bottom: 2px solid #f58e1f;
+}
+.header img {
+  margin: 30px 0;
+}
+.container {
+  width: 100%;
+  border: 0;
+}
+.content {
+  padding: 70px 30px;
+}
+.footer {
+  background: #f1f1f1;
+  padding: 50px 30px;
+}
+.footer td {
+  padding: 10px 0;
+}
+.social-icon {
+  text-decoration: none !important;
+  display: inline-block;
+}
+.social-icon img {
+  margin-right: 15px;
+}
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+.icon img {
+  margin-right: 10px;
+}
